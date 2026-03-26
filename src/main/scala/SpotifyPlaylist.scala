@@ -12,7 +12,9 @@ object SpotifyPlaylist {
   // ───────────────────────────────────────────────────────────────────────
 
   val PLAYLIST_ID   = "5Rrf7mqN8uus2AaQQQNdc1"
-  val MANUAL_TOKEN  = "BQCIu2VyIWhzSDmWEn3PK9WN7A6Rqe5iT80sQIuYU1Rhl-vphBikDKsr6Btflhkvmxegrf14CmUenkPA64epBl30STEySGhXqiMbjohIM-gbthWcL7P85brK1xA76fKe0eV0vcaU8GMJ61gSdv5bOdldxAFRja3qbSn_c1MRNO1TMjHl-OtBMwYCmYTY6OthVaDooieTAVNw-qNcgPJgNuHfAQvlTqlpLscKldqGSl6tzmPqPbzOGkH1CecCM6AL0SaYs8IJL6s4qEiQHSBG7dE_C7m92YnbcBr-pl4RYuhDX_jFc-IvTAiO_YKvF1WWxsJdGwQyDXzzsk4HThvG5dhYzInxAkTZLzifxmgMnF8CajnQq1k1Kv6n_kY9gKAdo1-JwGryEjZggNn7CB4huH2sj2i4"
+
+  //Note for T.A:- remember this the token which valid for only for 1 hour, i could use API key but for that i have to paid premium from spotify.
+  val MANUAL_TOKEN  = "BQBsFD0y63gR33GWiikW8NfOqEmL3WfBQyYR8q6GKXpwDqMZC5C7z9gqdpkc8lRN4Vcw2F0GR_f5bukefjJKuEMqmibcgNQVf2u2OWOP883Ceq3nBsd2m4_oefxpmvgDUD9DvcEspmZhHC68sviD9MtlDKqrTiybRuF2zsmRlESs0yjnpIHDcB5-ot6NGUnQMEWXtCMLGIcq0T7-82bOjb-Za7ElpNKax2XBvaq1WufLZ9xNfpQpsClULth92OchXpygcJSHWtCNtgZsQ0ExiEe92attWzXYseGsFqw3dy808zXvSaYFGRjt8UdfmjEQ7bgIe2sZ0bzenLllds4FK1bdjT4RJ7vXEBW3w3HrmG-qgmx0FMgLc0w7tpeyinxwvq2uupWw9OGrsTts2LqgyAg06swj"
 
   // Step 1: Get access token using Client Credentials flow
   def getAccessToken: String = {
